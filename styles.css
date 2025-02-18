@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'SF Pro';
+    src: url('SF-Pro.ttf') format('truetype');
+}
+
+body {
+    background-image: url('challenger.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+p1, p {
+    font-family: 'SF Pro', sans-serif;
+    color: white; /* Set the text color to white */
+    background-clip: text; /* Clip the background to the text */
+    -webkit-background-clip: text; /* Clip the background to the text for WebKit browsers */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add grey tint for better visibility */
+}
+p1, p {
+    font-family: 'SF Pro', sans-serif;
+}
+
+p1 {
+    font-size: 75px; /* Larger font size */
+    margin-bottom: 0.2em; /* Reduce bottom margin */
+}
+
+p {
+    font-size: 25px; /* Standard font size */
+    margin-top: 0; /* Remove top margin */
+}
+.footer {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 50px; /* Add space between the links */
+    font-family: 'SF Pro', sans-serif;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);}
+
+.footer div {
+    font-size: 20px;   
+}
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}

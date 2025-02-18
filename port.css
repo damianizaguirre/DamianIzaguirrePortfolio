@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'SF Pro';
+    src: url('SF-Pro.ttf') format('truetype');
+}
+
+body {
+    background-color: white; /* Set a plain white background color */
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+p1 {
+    font-family: 'SF Pro', sans-serif;
+    color: black; /* Set the text color to black */
+    font-size: 50px; /* Set the font size to 70px */
+    margin-top: 20px; /* Add some margin at the top */
+}
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Add space between images */
+    width: 100%;
+    padding: 20px;
+}
+
+.portfolio img {
+    max-width: 45%; /* Ensure images take up less than half the width */
+    height: auto;
+}
+
+.portfolio img.left {
+    align-self: flex-start;
+}
+
+.portfolio img.right {
+    align-self: flex-end;
+}
