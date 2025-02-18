@@ -41,3 +41,8 @@ p1 {
 .portfolio img.right {
     align-self: flex-end;
 }
+.portfolio img.middle {
+    width: 100%; /* Ensure the image takes up the full width */
+    max-width: 90%; /* Ensure the image takes up less than the full width */
+    margin-top: 20px; /* Add some margin at the top */
+}
